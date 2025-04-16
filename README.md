@@ -251,3 +251,8 @@ file/    file    n/a
 # vault login
 Token (will be hidden): <ACCESS_TOKEN>
 ```
+
+### Enable secret kv-v2
+```
+# vault secrets enable -path=secret kv-v2
+```
